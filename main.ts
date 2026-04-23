@@ -2,6 +2,7 @@ l9110.pauseMotor(l9110.Motor.MotorA)
 l9110.pauseMotor(l9110.Motor.MotorB)
 basic.showIcon(IconNames.Surprised)
 basic.pause(500)
+basic.showIcon(IconNames.Snake)
 basic.forever(function () {
     basic.showIcon(IconNames.Rollerskate)
     l9110.controlMotor(l9110.Motor.MotorA, l9110.Rotate.Forward, 50)
